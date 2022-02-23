@@ -31,18 +31,6 @@ app.get('/person',validator,(req,res)=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 app.use(errorHandler);
 app.use('*',notFound);
 
